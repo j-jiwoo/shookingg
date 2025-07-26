@@ -1,0 +1,60 @@
+.app-header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 16px;
+    position: stichy; /*상단 고정*/
+    top: 0;
+    z-index: 100;
+}
+
+.cart-icon {
+    font-size: 24px;
+}
+
+.App{
+    text-align: left;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);   /*2열 구조*/
+    gap: 16px;
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.card{
+    width: 180px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin: 8px 0 4px;
+}
+
+.card p {
+    margin: 4px 0;
+}
+
+.card button {
+    margin-top: 8px;
+    padding: 6px 12px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
